@@ -12,7 +12,8 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.appDist,
     historyApiFallback: true,
-    hot: true
+    hot: true,
+    host: '0.0.0.0',
   },
 
   plugins: [
