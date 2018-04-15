@@ -8,6 +8,8 @@ import Slider from 'Library';
 import img1 from './img1.jpg';
 import img2 from './img2.jpg';
 import img3 from './img3.jpg';
+import img4 from './img4.jpg';
+import img5 from './img5.jpg';
 
 @hot(module)
 /**
@@ -27,6 +29,10 @@ export default class Component extends React.Component {
       url: img2,
     }, {
       url: img3,
+    }, {
+      url: img4,
+    }, {
+      url: img5,
     }];
   }
 
@@ -36,9 +42,25 @@ export default class Component extends React.Component {
    */
   render() {
     return (
-      <div style={{width: '100vw', height: '400px'}}>
-        <Slider data={this.data}>
-        </Slider>
+      <div style={{
+        position: 'fix',
+        top: '0px',
+        bottom: '0px',
+        left: '0px',
+        right: '0px',
+      }}>
+        <div style={{
+          width: '100%',
+          height: '60px',
+          lineHeight: '60px',
+          textAlign: 'center',
+        }}>slider</div>
+        <div style={{
+          width: '100%',
+          height: '400px',
+        }}>
+          <Slider data={this.data}></Slider>
+        </div>
       </div>
     );
   }
