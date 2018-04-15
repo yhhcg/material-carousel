@@ -59,7 +59,12 @@ export default class Component extends React.Component {
           width: '100%',
           height: '400px',
         }}>
-          <Slider data={this.data}></Slider>
+          <Slider
+            data={this.data}
+            onClick={(e) => {
+              console.log(e);
+            }}
+          />
         </div>
       </div>
     );
