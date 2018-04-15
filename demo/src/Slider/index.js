@@ -51,12 +51,6 @@ export default class Component extends React.Component {
       }}>
         <div style={{
           width: '100%',
-          height: '60px',
-          lineHeight: '60px',
-          textAlign: 'center',
-        }}>slider</div>
-        <div style={{
-          width: '100%',
           height: '400px',
         }}>
           <Slider
