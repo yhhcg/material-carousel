@@ -23,17 +23,32 @@ export default class Component extends React.Component {
   constructor(props) {
     super(props);
 
-    this.data = [{
-      url: img1,
-    }, {
-      url: img2,
-    }, {
-      url: img3,
-    }, {
-      url: img4,
-    }, {
-      url: img5,
-    }];
+    this.state = {
+      data: [{
+        url: img1,
+      }, {
+        url: img2,
+      }, {
+        url: img3,
+      }, {
+        url: img4,
+      }, {
+        url: img5,
+      }],
+    };
+
+    setTimeout(() => {
+      this.setState({
+        ...this.state,
+        data: [{
+          url: img1,
+          }, {
+            url: img2,
+          }, {
+            url: img3,
+        }],
+      });
+    }, 5000);
   }
 
   /**
@@ -54,7 +69,7 @@ export default class Component extends React.Component {
           height: '400px',
         }}>
           <Slider
-            data={this.data}
+            data={this.state.data}
             onClick={(e) => {
               console.log(e);
             }}
