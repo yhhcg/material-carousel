@@ -1,9 +1,9 @@
 /**
- * @module Demo/Slider
+ * @module Demo/Carousel
  */
 import React from 'react';
 import {hot} from 'react-hot-loader';
-import Slider from 'Library';
+import Carousel from 'Library';
 
 import img1 from './img1.jpg';
 import img2 from './img2.jpg';
@@ -13,7 +13,7 @@ import img5 from './img5.jpg';
 
 @hot(module)
 /**
- * Slider page
+ * Carousel page
  */
 export default class Component extends React.Component {
   /**
@@ -52,7 +52,7 @@ export default class Component extends React.Component {
   }
 
   /**
-   * Render slider page
+   * Render Carousel page
    * @return {Component}
    */
   render() {
@@ -68,7 +68,7 @@ export default class Component extends React.Component {
           width: '100%',
           height: '400px',
         }}>
-          <Slider
+          <Carousel
             data={this.state.data}
             onClick={(e) => {
               console.log(e);

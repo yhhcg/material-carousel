@@ -1,7 +1,7 @@
 {
-  "name": "material-slider",
+  "name": "material-carousel",
   "version": "0.0.1",
-  "description": "Slider component",
+  "description": "Carousel component",
   "main": "index.js",
   "module": "cjs/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "test:watch": "npm test -- --watch",
     "doc": "jsdoc src -r"
   },
-  "repository": "git@github.com:yhhcg/material-slider.git",
+  "repository": "git@github.com:yhhcg/material-carousel.git",
   "author": "yhhcg",
   "license": "MIT",
   "devDependencies": {

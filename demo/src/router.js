@@ -17,9 +17,9 @@ export default class Router extends React.Component {
   constructor(props) {
     super(props);
 
-    this.Slider = lodable({
+    this.Carousel = lodable({
       loader: () => {
-        return import('./Slider');
+        return import('./Carousel');
       },
       loading: () => {
         return <div>Loading...</div>;
@@ -34,7 +34,7 @@ export default class Router extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={this.Slider}/>
+          <Route exact path="/" component={this.Carousel}/>
         </Switch>
       </BrowserRouter>
     );
