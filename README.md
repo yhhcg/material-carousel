@@ -2,6 +2,16 @@
 
 The component does not depend on any projects.
 
+#### Install
+``` sh
+npm install --save material-carousel
+```
+###### Then use it.
+``` js
+import Carousel from 'material-carousel';
+<Carousel data={data} />
+```
+
 #### Config Options
 |Name|Type|Default|Required|Description|
 |:--:|:--:|:-----:|:--:|:----------|
