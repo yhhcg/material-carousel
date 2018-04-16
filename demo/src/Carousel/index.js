@@ -36,19 +36,6 @@ export default class Component extends React.Component {
         url: img5,
       }],
     };
-
-    setTimeout(() => {
-      this.setState({
-        ...this.state,
-        data: [{
-          url: img1,
-          }, {
-            url: img2,
-          }, {
-            url: img3,
-        }],
-      });
-    }, 5000);
   }
 
   /**
