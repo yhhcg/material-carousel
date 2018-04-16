@@ -1,6 +1,6 @@
 {
   "name": "material-carousel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Carousel component",
   "main": "index.js",
   "module": "cjs/index.js",
