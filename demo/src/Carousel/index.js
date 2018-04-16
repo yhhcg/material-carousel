@@ -70,8 +70,8 @@ export default class Component extends React.Component {
         }}>
           <Carousel
             data={this.state.data}
-            onClick={(e) => {
-              console.log(e);
+            onClick={(item, index) => {
+              console.log(`index: ${index} data: ${JSON.stringify(item)}`);
             }}
           />
         </div>
