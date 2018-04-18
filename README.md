@@ -1,6 +1,7 @@
 ## material-carousel
 
 The component does not depend on any projects.
+
 [![demo](https://yhhcg.github.io/carousel.gif "demo")](https://yhhcg.github.io/carousel.gif "demo")
 
 #### Install
