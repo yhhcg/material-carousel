@@ -2,6 +2,8 @@
 
 The component does not depend on any projects.
 
+#### Demo
+
 [![demo](https://yhhcg.github.io/carousel.gif "demo")](https://yhhcg.github.io/carousel.gif "demo")
 
 #### Install
